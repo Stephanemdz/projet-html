@@ -1,0 +1,28 @@
+@import url(./reset.css);
+
+/*theme*/
+header>h1 {
+    background-color: rgb(19, 17, 17);
+    color: #fff;
+    font-weight: normal;
+    line-height: 6.5rem;
+    /*65px*/
+    /* on utlise le rem a la place du pixel puisqu'il permet de 
+    mieux cadré. c'est plus précis*/
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+section {
+    max-width: 90rem;
+    margin: 5rem auto;
+    border: solid .1rem #333;
+    padding: 1rem;
+}
+
+section img {
+    width: 100%;
+}
+footer*{
+    text-align: center;
+}

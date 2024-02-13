@@ -25,4 +25,8 @@ a{
 *{
     box-sizing: border-box;
 }
-
+img{
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
+}
