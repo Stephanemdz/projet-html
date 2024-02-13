@@ -10,6 +10,7 @@
         --border-radius: .4rem;
         --bgsection: normal;
         --subtitle: uppercase; 
+        --bgmain: #636e72;
 }
 header>h1 { 
     background-color: var(--bgcolor);

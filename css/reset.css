@@ -9,6 +9,7 @@ body{
     letter-spacing: .1rem;
     line-height: 1.6;
     margin: 0;
+    background-color: var(--bgmain);
 }
 
 /*on enlève et on supprime toutes les marges par défaut*/
