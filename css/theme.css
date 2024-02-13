@@ -4,9 +4,12 @@
 
 /*theme*/
 :root{/*selector root = racine avec les variables*/
-        --bgcolor: rgb(0, 0, 0);
+        --bgcolor: #1a1818; 
         --color-text-title : #7fa820;
-        --color-border : #7e7d7d;
+        --color-border : #110de9;
+        --border-radius: .4rem;
+        --bgsection: normal;
+        --subtitle: uppercase; 
 }
 header>h1 { 
     background-color: var(--bgcolor);
@@ -30,14 +33,20 @@ header>h1 {
 }
 
 section {
-    max-width: 90rem;
+    background-color: var(--bgsection);
+    max-width: 90rem; /*900px*/
     margin: 5rem auto;
-    border: solid .1rem #333;
+    border: solid .1rem var(--color-border);
+    border-radius: var(--border-radius);
     padding: 1rem;
 }
 
 section img {
     width: 100%;
+}
+section h2{
+    text-transform: var(--subtitle);
+    font-weight: 400;
 }
 footer*{
     text-align: center;
