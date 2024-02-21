@@ -4,8 +4,8 @@
 
 /*theme*/
 :root{/*selector root = racine avec les variables*/
-        --bgcolor: #080808; 
-        --color-text-title : #7fa820;
+        --bgcolor: #200e0e; 
+        --color-text-title : #ffffff;
         --color-border : #000000;
         --border-radius: .4rem;
         --bgsection: #fff;
@@ -13,6 +13,8 @@
         --bgmain: #493c3c;
         --btn-default-color: #817f7f;
         --bgimgcolor: #ffffff;
+        --colorhtwo: none;
+        --titledefaultcolor: #ff4757;
 }
 header>h1 { 
     background-color: var(--bgcolor);
@@ -70,6 +72,20 @@ section h2{
     background-color: #c0392b;
     color: var(--bgsection);
 }
+.title-default-level-two{
+    background-color: var(--titledefaultcolor);
+    line-height: 1.5rem;
+    padding: .8rem 0rem;
+    text-align: center;
+    color: var(--bgmain);
+}
+.title-success{
+    background-color: #eccc68;
+}
+.title-warning{
+    background-color: #182C61;
+}
+
 footer *{
     text-align: center;
 }
