@@ -14,7 +14,7 @@
         --btn-default-color: #817f7f;
         --bgimgcolor: #ffffff;
         --colorhtwo: none;
-        --titledefaultcolor: #ff4757;
+        --titledefaultcolor: #ffffff;
 }
 header>h1 { 
     background-color: var(--bgcolor);
@@ -50,6 +50,8 @@ section img {
     width: 100%;
 }
 section h2{
+    line-height: 6.5rem;
+    text-align: center;
     text-transform: var(--subtitle);
     font-weight: 400; 
 }
@@ -67,7 +69,13 @@ section h2{
 .btn-option-sucess{
     background-color: #16a085;
     color: var(--bgsection);
+    transition: all .5s ease-in-out;
 }
+.btn-option-sucess:hover{
+    filter: brightness(.5);
+}
+
+
 .btn-option-warning{
     background-color: #c0392b;
     color: var(--bgsection);
@@ -89,3 +97,4 @@ section h2{
 footer *{
     text-align: center;
 }
+
